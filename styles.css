@@ -1,0 +1,51 @@
+body,html{
+    margin:0;
+    height: 100%;
+    background-color:black;
+}
+.wrapper{
+    background-color: rgb(224, 6, 6);
+   
+    position:absolute;
+    height:100%;
+    width: 100%;
+    display:grid;
+    grid-template-areas:'left main main' 'left main main' 'left main main' 'bottom bottom bottom';  
+}
+.btn{
+    background-color: rgb(255, 0, 183);
+    
+    color:rgb(255, 242, 1);
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: large;   
+}
+.mainn{
+    background-color: aquamarine;
+    grid-area:main;
+    
+   padding:20%;
+   padding-top:50%;
+}
+
+
+.btn:hover {
+    background-color:rgb(254, 247, 118);
+    color:  rgb(163, 0, 117);
+    cursor: pointer;
+}
+.left{
+    min-width:200px;
+    width:auto;
+    background-color:rgb(14, 14, 248);
+    grid-area: left;
+}
+.bottom{
+    
+    height:auto;
+  
+    background:rgb(0, 255, 34);
+    grid-area: bottom;
+   
+}
