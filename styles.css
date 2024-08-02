@@ -3,9 +3,16 @@ body,html{
     height: 100%;
     background-color:black;
 }
+.text{
+    
+    font-size: large;
+    padding: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
 .wrapper{
     background-color: rgb(224, 6, 6);
-   
+  
     position:absolute;
     height:100%;
     width: 100%;
@@ -14,19 +21,24 @@ body,html{
 }
 .btn{
     background-color: rgb(255, 0, 183);
-    
+    padding:10px;
     color:rgb(255, 242, 1);
     font-family: sans-serif;
     font-weight: bold;
     border-radius: 50px;
     font-size: large;   
+    border-color:aliceblue;
+    margin:100px ;
+    margin-top:200px;
+    
 }
 .mainn{
     background-color: aquamarine;
     grid-area:main;
+    text-align: center;
     
-   padding:20%;
-   padding-top:50%;
+   
+   
 }
 
 
@@ -38,14 +50,16 @@ body,html{
 .left{
     min-width:200px;
     width:auto;
+    height:auto;
     background-color:rgb(14, 14, 248);
     grid-area: left;
 }
 .bottom{
     
     height:auto;
-  
+    min-height:50px;
     background:rgb(0, 255, 34);
     grid-area: bottom;
    
 }
+
